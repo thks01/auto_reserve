@@ -13,8 +13,8 @@ driver.minimize_window()
 driver.get('http://tzone.megastudy.net/new_main.asp')
 
 driver.find_element(By.CSS_SELECTOR, 'body > form > div > div.login--radioWrap > label:nth-child(2) > input[type=radio]').click()
-driver.find_element(By.CSS_SELECTOR, '#id').send_keys('thstnghks')
-driver.find_element(By.CSS_SELECTOR, '#passwd').send_keys('gmlwls1014@!')
+driver.find_element(By.CSS_SELECTOR, '#id').send_keys('id')
+driver.find_element(By.CSS_SELECTOR, '#passwd').send_keys('pw')
 driver.find_element(By.CSS_SELECTOR, '#sp_smsct').click()
 driver.find_element(By.CSS_SELECTOR, '#sp_login').click()
 
